@@ -1,6 +1,6 @@
 {
   "name": "is-image",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Check if a filepath is an image",
   "license": "MIT",
   "repository": "sindresorhus/is-image",
