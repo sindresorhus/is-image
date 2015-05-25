@@ -8,7 +8,7 @@ imageExtensions.forEach(function (el) {
 });
 
 module.exports = function (filepath) {
-	var ext = path.extname(filepath).slice(1);
+	var ext = path.extname(filepath).slice(1).toLowerCase();
 
 	if (ext === '') {
 		return false;
