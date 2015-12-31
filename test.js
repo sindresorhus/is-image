@@ -1,12 +1,10 @@
-'use strict';
-var test = require('ava');
-var isImage = require('./');
+import test from 'ava';
+import m from './';
 
-test(function (t) {
-	t.assert(isImage('unicorn.jpg'));
-	t.assert(isImage('unicorn.JPG'));
-	t.assert(!isImage('unicorn.zip'));
-	t.assert(!isImage('unicornzip'));
-	t.assert(!isImage('unicorn.txt'));
-	t.end();
+test(t => {
+	t.true(m('unicorn.jpg'));
+	t.true(m('unicorn.JPG'));
+	t.false(m('unicorn.zip'));
+	t.false(m('unicornzip'));
+	t.false(m('unicorn.txt'));
 });
