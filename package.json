@@ -37,7 +37,7 @@
     "png"
   ],
   "dependencies": {
-    "file-type": "^4.1.0",
+    "file-type": "^4.4.0",
     "image-extensions": "^1.0.1",
     "is-url": "^1.2.2",
     "node-fetch": "^1.6.3",
