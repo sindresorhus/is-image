@@ -37,7 +37,11 @@
     "png"
   ],
   "dependencies": {
-    "image-extensions": "^1.0.1"
+    "file-type": "^4.4.0",
+    "image-extensions": "^1.0.1",
+    "is-url": "^1.2.2",
+    "node-fetch": "^1.6.3",
+    "read-chunk": "^2.0.0"
   },
   "devDependencies": {
     "ava": "*"
