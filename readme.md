@@ -2,6 +2,8 @@
 
 > Check if a filepath is an image
 
+It just checks the extension. Use [`image-type`](https://github.com/sindresorhus/image-type) if you want to check the actual file.
+
 
 ## Install
 
