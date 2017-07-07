@@ -8,14 +8,14 @@ It just checks the extension. Use [`image-type`](https://github.com/sindresorhus
 ## Install
 
 ```
-$ npm install --save is-image
+$ npm install is-image
 ```
 
 
 ## Usage
 
 ```js
-var isImage = require('is-image');
+const isImage = require('is-image');
 
 isImage('src/unicorn.png');
 //=> true
@@ -28,8 +28,11 @@ isImage('src/unicorn.txt');
 ## Related
 
 - [image-extensions](https://github.com/arthurvr/image-extensions) - List of image extensions
+- [image-type](https://github.com/sindresorhus/image-type) - Detect the image type of a Buffer/Uint8Array
+- [is-text-path](https://github.com/sindresorhus/is-text-path) - Check if a filepath is a text file
+- [is-binary-path](https://github.com/sindresorhus/is-binary-path) - Check if a filepath is a binary file
 
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

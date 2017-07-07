@@ -1,12 +1,7 @@
 'use strict';
-var path = require('path');
-var imageExtensions = require('image-extensions');
-var exts = Object.create(null);
+const path = require('path');
+const imageExtensions = require('image-extensions');
 
-imageExtensions.forEach(function (el) {
-	exts[el] = true;
-});
+const exts = new Set(imageExtensions);
 
-module.exports = function (filepath) {
-	return path.extname(filepath).slice(1).toLowerCase() in exts;
-};
+module.exports = filepath => exts.has(path.extname(filepath).slice(1).toLowerCase());
