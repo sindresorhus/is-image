@@ -17,10 +17,10 @@ $ npm install is-image
 ```js
 const isImage = require('is-image');
 
-isImage('src/unicorn.png');
+isImage('source/unicorn.png');
 //=> true
 
-isImage('src/unicorn.txt');
+isImage('source/unicorn.txt');
 //=> false
 ```
 

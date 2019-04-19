@@ -1,14 +1,14 @@
 /**
-Check if a filepath is an image.
+Check if a file path is an image.
 
 @example
 ```
 const isImage = require('is-image');
 
-isImage('src/unicorn.png');
+isImage('source/unicorn.png');
 //=> true
 
-isImage('src/unicorn.txt');
+isImage('source/unicorn.txt');
 //=> false
 ```
 */

@@ -1,7 +1,7 @@
 {
 	"name": "is-image",
 	"version": "2.0.0",
-	"description": "Check if a filepath is an image",
+	"description": "Check if a file path is an image",
 	"license": "MIT",
 	"repository": "sindresorhus/is-image",
 	"author": {
@@ -20,9 +20,8 @@
 		"index.d.ts"
 	],
 	"keywords": [
-		"ext",
-		"extensions",
 		"extension",
+		"extensions",
 		"file",
 		"path",
 		"check",
@@ -31,7 +30,6 @@
 		"image",
 		"img",
 		"photo",
-		"pic",
 		"picture",
 		"jpg",
 		"jpeg",
