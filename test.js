@@ -1,10 +1,10 @@
 import test from 'ava';
-import m from '.';
+import isImage from '.';
 
-test(t => {
-	t.true(m('unicorn.jpg'));
-	t.true(m('unicorn.JPG'));
-	t.false(m('unicorn.zip'));
-	t.false(m('unicornzip'));
-	t.false(m('unicorn.txt'));
+test('main', t => {
+	t.true(isImage('unicorn.jpg'));
+	t.true(isImage('unicorn.JPG'));
+	t.false(isImage('unicorn.zip'));
+	t.false(isImage('unicornzip'));
+	t.false(isImage('unicorn.txt'));
 });
