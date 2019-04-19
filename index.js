@@ -2,6 +2,6 @@
 const path = require('path');
 const imageExtensions = require('image-extensions');
 
-const exts = new Set(imageExtensions);
+const extensions = new Set(imageExtensions);
 
-module.exports = filepath => exts.has(path.extname(filepath).slice(1).toLowerCase());
+module.exports = filePath => extensions.has(path.extname(filePath).slice(1).toLowerCase());

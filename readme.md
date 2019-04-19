@@ -1,6 +1,6 @@
 # is-image [![Build Status](https://travis-ci.org/sindresorhus/is-image.svg?branch=master)](https://travis-ci.org/sindresorhus/is-image)
 
-> Check if a filepath is an image
+> Check if a file path is an image
 
 It just checks the extension. Use [`image-type`](https://github.com/sindresorhus/image-type) if you want to check the actual file.
 
