@@ -1,4 +1,4 @@
-# is-image [![Build Status](https://travis-ci.org/sindresorhus/is-image.svg?branch=master)](https://travis-ci.org/sindresorhus/is-image)
+# is-image
 
 > Check if a file path is an image
 
