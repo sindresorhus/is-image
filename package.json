@@ -35,9 +35,6 @@
 		"jpeg",
 		"png"
 	],
-	"dependencies": {
-		"image-extensions": "^1.1.0"
-	},
 	"devDependencies": {
 		"ava": "^1.4.1",
 		"tsd": "^0.7.2",
