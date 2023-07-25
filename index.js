@@ -116,6 +116,6 @@ const extensions = new Set([
 	'xpm',
 ]);
 
-const isImage = filePath => extensions.has(path.extname(filePath).slice(1).toLowerCase());
-
-export default isImage;
+export default function isImage(filePath) {
+	return extensions.has(path.extname(filePath).slice(1).toLowerCase());
+}
