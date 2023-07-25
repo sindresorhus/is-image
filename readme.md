@@ -15,7 +15,7 @@ $ npm install is-image
 ## Usage
 
 ```js
-const isImage = require('is-image');
+import isImage from 'is-image';
 
 isImage('source/unicorn.png');
 //=> true

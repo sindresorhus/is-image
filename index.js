@@ -1,5 +1,4 @@
-'use strict';
-const path = require('path');
+import path from 'node:path';
 
 const extensions = new Set([
 	'3dv',
@@ -114,7 +113,9 @@ const extensions = new Set([
 	'xar',
 	'xbm',
 	'xcf',
-	'xpm'
+	'xpm',
 ]);
 
-module.exports = filePath => extensions.has(path.extname(filePath).slice(1).toLowerCase());
+const isImage = filePath => extensions.has(path.extname(filePath).slice(1).toLowerCase());
+
+export default isImage;
