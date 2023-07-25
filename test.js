@@ -1,5 +1,5 @@
 import test from 'ava';
-import isImage from '.';
+import isImage from './index.js';
 
 test('main', t => {
 	t.true(isImage('unicorn.jpg'));
